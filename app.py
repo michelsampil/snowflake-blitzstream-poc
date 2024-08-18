@@ -28,7 +28,7 @@ st.title('Snowflake Streamlit POC')
 # Query Snowflake and display results
 st.write("Fetching data from Snowflake...")
 
-cursor.execute("SELECT * FROM your_table LIMIT 10")  # Replace 'your_table' with your actual table name
+cursor.execute("SELECT * FROM users LIMIT 10")
 data = cursor.fetchall()
 
 # Display data in Streamlit
